@@ -1,0 +1,1 @@
+club_rec_categorize.ipynb - here we worked on our categorization model

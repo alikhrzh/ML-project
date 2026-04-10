@@ -1,0 +1,1752 @@
+﻿[
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills",
+        "interest":  "mathematics, puzzles, competitions",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can sharpen my math skills. Something centered on math problems and competitions sounds right.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories",
+        "interest":  "cross-cultural conversations, exchange nights, traditions",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can meet students from different countries. Something centered on cross-cultural conversations and exchange nights sounds right.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine",
+        "interest":  "fitness, team play, regular practice",
+        "text":  "I\u0027m hoping to stay active consistently, not just on my own. A club focused on fitness routines and regular practice would feel like a great fit.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and get more exposure to the finance industry",
+        "interest":  "heritage events, traditional food, cultural celebrations, markets, finance careers",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay connected to my roots and learn about finance careers through heritage events and cultural celebrations and market discussions and finance networking, I\u0027d be happy.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester and try boxing or another combat sport",
+        "interest":  "study groups, goal setting, intellectual community, boxing, discipline",
+        "text":  "I\u0027m looking for a club where I can stay academically motivated and try a combat sport. I\u0027d be especially interested in something that brings together study groups and intellectual community and boxing training and conditioning.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to feel less shy in group settings and keep painting and sharing work with other people",
+        "interest":  "conversation, confidence, small group activities, painting, critique",
+        "text":  "My ideal club would help me feel less shy in groups and keep painting and sharing work. A group built around conversation and small group activities and painting sessions and critique sounds like a great fit.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to spend more time outdoors being active and perform music again",
+        "interest":  "hiking, cycling, active weekends, singing, instruments",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me spend more time outdoors being active and perform music again. The mix of interests in hiking and active weekends and singing and rehearsals really appeals to me.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills",
+        "interest":  "mathematics, puzzles, competitions",
+        "text":  "I miss having a space where I can sharpen my math skills. I\u0027d love a club that regularly brings people together around math problems and competitions.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine",
+        "interest":  "fitness, team play, regular practice",
+        "text":  "I tend to stick with activities that let me stay active consistently. A club around fitness routines and regular practice would really suit me.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to find a casual club without a lot of pressure and make films with other students",
+        "interest":  "friendly atmosphere, easy participation, campus life, filmmaking, editing",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me find a casual club without pressure and make films with other students. The mix of interests in a friendly atmosphere and easy participation and filmmaking and storytelling really appeals to me.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get into running in a beginner-friendly way and build a stronger internship profile",
+        "interest":  "running, conditioning, outdoor workouts, career branding, internship prep",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together group runs and conditioning and career branding and internship prep, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way and keep playing basketball seriously",
+        "interest":  "experiments, workshops, academic projects, basketball, drills",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together experiments and academic projects and basketball drills and scrimmages would let me learn through hands-on work and keep playing basketball seriously in one place.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to understand consulting and case interviews better",
+        "interest":  "consulting, case practice, business strategy",
+        "text":  "I tend to stick with activities that let me understand consulting recruiting. A club around case practice and business strategy would really suit me.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university, work on projects that look strong on a resume, and be in a space where creativity feels normal",
+        "interest":  "swimming, training plans, fitness, portfolio building, teamwork",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around swim training and fitness, portfolio projects and leadership, and sketching and experimentation would give me space to keep up with swimming, build resume-worthy experience, and be in a space where creativity feels normal.",
+        "categories":  [
+                           "sports",
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get into running in a beginner-friendly way and write creatively with other people",
+        "interest":  "running, conditioning, outdoor workouts, creative writing, readings",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together group runs and conditioning and creative writing and readings, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills",
+        "interest":  "mathematics, puzzles, competitions",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can sharpen my math skills. Something centered on math problems and competitions sounds right.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group",
+        "interest":  "track, endurance, race prep",
+        "text":  "I miss having a space where I can train for races. I\u0027d love a club that regularly brings people together around endurance training and race prep.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and keep painting and sharing work with other people",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, painting, critique",
+        "text":  "My ideal club would help me meet students from different countries and keep painting and sharing work. A group built around cross-cultural conversations and exchange nights and painting sessions and critique sounds like a great fit.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get more research experience before applying to graduate school and understand consulting and case interviews better",
+        "interest":  "lab work, academic mentoring, conferences, consulting, case practice",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together lab work and academic mentoring and case practice and business strategy would let me build research experience and understand consulting recruiting in one place.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate Lunar New Year and similar traditions with others and get out of my room more often",
+        "interest":  "holiday events, East Asian culture, campus celebrations, events, outings",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together campus celebrations and East Asian culture and events and outings would let me celebrate important cultural holidays and get out more and meet people in one place.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to find a community that feels upbeat and welcoming",
+        "interest":  "group activities, mixers, positive environment",
+        "text":  "I tend to stick with activities that let me find a welcoming community. A club around group activities and mixers would really suit me.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in academic competitions and get practice with interviews and resumes",
+        "interest":  "case contests, quiz bowls, team challenges, career prep, resume reviews",
+        "text":  "My ideal club would help me compete academically and prepare for internships. A group built around case contests and quiz-style challenges and resume reviews and mock interviews sounds like a great fit.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate Lunar New Year and similar traditions with others and get out of my room more often",
+        "interest":  "holiday events, East Asian culture, campus celebrations, events, outings",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me celebrate important cultural holidays and get out more and meet people. The mix of interests in campus celebrations and East Asian culture and events and outings really appeals to me.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate Lunar New Year and similar traditions with others and keep playing basketball seriously",
+        "interest":  "holiday events, East Asian culture, campus celebrations, basketball, drills",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me celebrate important cultural holidays and keep playing basketball seriously. The mix of interests in campus celebrations and East Asian culture and basketball drills and scrimmages really appeals to me.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way",
+        "interest":  "experiments, workshops, academic projects",
+        "text":  "I\u0027m looking for something that lets me learn through hands-on work without being overly intense. A group based on experiments and academic projects would be perfect.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to get into running in a beginner-friendly way and write creatively with other people",
+        "interest":  "running, conditioning, outdoor workouts, creative writing, readings",
+        "text":  "My ideal club would help me get into running and write creatively with other people. A group built around group runs and conditioning and creative writing and readings sounds like a great fit.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate Lunar New Year and similar traditions with others, learn how my degree connects to real jobs, and learn a new creative skill",
+        "interest":  "holiday events, East Asian culture, campus celebrations, career paths, alumni advice",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to celebrate important cultural holidays, connect my degree to real jobs, and learn a new creative skill in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get more research experience before applying to graduate school and make films with other students",
+        "interest":  "lab work, academic mentoring, conferences, filmmaking, editing",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me build research experience and make films with other students. The mix of interests in lab work and academic mentoring and filmmaking and storytelling really appeals to me.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus",
+        "interest":  "heritage events, traditional food, cultural celebrations",
+        "text":  "I tend to stick with activities that let me stay connected to my roots. A club around heritage events and cultural celebrations would really suit me.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to get more exposure to the finance industry",
+        "interest":  "markets, finance careers, networking",
+        "text":  "I miss having a space where I can learn about finance careers. I\u0027d love a club that regularly brings people together around market discussions and finance networking.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture",
+        "interest":  "Arabic language, calligraphy, cultural workshops",
+        "text":  "Lately I\u0027ve wanted to learn a culture through art and language. If there\u0027s a group built around calligraphy workshops and Middle Eastern culture, I\u0027d be interested.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine and meet people outside my classes and major",
+        "interest":  "fitness, team play, regular practice, new friends, mixed groups",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay active consistently and meet people outside my classes through fitness routines and regular practice and mixed groups and campus events, I\u0027d be happy.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and make films with other students",
+        "interest":  "Arabic language, calligraphy, cultural workshops, filmmaking, editing",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me learn a culture through art and language and make films with other students. The mix of interests in calligraphy workshops and Middle Eastern culture and filmmaking and storytelling really appeals to me.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group and find something fun where I can meet new people regularly",
+        "interest":  "track, endurance, race prep, hangouts, casual events",
+        "text":  "My ideal club would help me train for races and meet new people regularly. A group built around endurance training and race prep and hangouts and casual events sounds like a great fit.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group",
+        "interest":  "track, endurance, race prep",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can train for races. Something centered on endurance training and race prep sounds right.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and improve my public speaking through regular practice",
+        "interest":  "heritage events, traditional food, cultural celebrations, presentations, argumentation",
+        "text":  "I\u0027m looking for a club where I can stay connected to my roots and improve my public speaking. I\u0027d be especially interested in something that brings together heritage events and cultural celebrations and speaking practice and structured feedback.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to improve my illustration skills",
+        "interest":  "drawing, digital art, feedback",
+        "text":  "I miss having a space where I can improve my illustration skills. I\u0027d love a club that regularly brings people together around drawing practice and feedback.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to improve my illustration skills",
+        "interest":  "drawing, digital art, feedback",
+        "text":  "I miss having a space where I can improve my illustration skills. I\u0027d love a club that regularly brings people together around drawing practice and feedback.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and understand consulting and case interviews better",
+        "interest":  "Arabic language, calligraphy, cultural workshops, consulting, case practice",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together calligraphy workshops and Middle Eastern culture and case practice and business strategy would let me learn a culture through art and language and understand consulting recruiting in one place.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus",
+        "interest":  "heritage events, traditional food, cultural celebrations",
+        "text":  "I\u0027m hoping to stay connected to my roots, not just on my own. A club focused on heritage events and cultural celebrations would feel like a great fit.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to build leadership experience employers will care about and have more fun weekends on campus",
+        "interest":  "project management, leadership roles, organizing, events, outings",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together project management and leadership roles and events and group plans would let me build leadership experience and have more fun weekends on campus in one place.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to build leadership experience employers will care about and have more fun weekends on campus",
+        "interest":  "project management, leadership roles, organizing, events, outings",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me build leadership experience and have more fun weekends on campus. The mix of interests in project management and leadership roles and events and group plans really appeals to me.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine",
+        "interest":  "fitness, team play, regular practice",
+        "text":  "I\u0027m hoping to stay active consistently, not just on my own. A club focused on fitness routines and regular practice would feel like a great fit.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way, keep playing basketball seriously, and learn a new creative skill",
+        "interest":  "experiments, workshops, academic projects, basketball, drills",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around experiments and academic projects, basketball drills and scrimmages, and workshops and beginner-friendly art would give me space to learn through hands-on work, keep playing basketball seriously, and learn a new creative skill.",
+        "categories":  [
+                           "academic",
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and improve my writing and critical thinking",
+        "interest":  "Arabic language, calligraphy, cultural workshops, essays, editing",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together calligraphy workshops and Middle Eastern culture and essays and peer feedback would let me learn a culture through art and language and improve my writing in one place.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to get better at coding and build projects with other students, keep up with swimming while at university, and feel connected during my first semester",
+        "interest":  "programming, hackathons, software projects, swimming, training plans",
+        "text":  "My ideal club would help me build coding skills with other students, keep up with swimming, and feel connected in my first semester. If a group naturally blends programming projects and hackathons, swim training and fitness, and new friends and community support, I\u0027d be really interested.",
+        "categories":  [
+                           "academic",
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to do something that challenges me intellectually outside class and get back into theatre",
+        "interest":  "debate, research, problem solving, acting, stage production",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can be challenged intellectually and get back into theatre through debates and research conversations and acting and stage production, I\u0027d be happy.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to explore cultures different from my own and make friends as an international student",
+        "interest":  "international festivals, customs, storytelling, community, support",
+        "text":  "My ideal club would help me learn about cultures different from my own and make friends as an international student. A group built around international festivals and cultural exchange and community support and campus connection sounds like a great fit.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to spend more time outdoors being active and learn how my degree connects to real jobs",
+        "interest":  "hiking, cycling, active weekends, career paths, alumni advice",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me spend more time outdoors being active and connect my degree to real jobs. The mix of interests in hiking and active weekends and career paths and alumni advice really appeals to me.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way",
+        "interest":  "experiments, workshops, academic projects",
+        "text":  "Lately I\u0027ve wanted to learn through hands-on work. If there\u0027s a group built around experiments and academic projects, I\u0027d be interested.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester",
+        "interest":  "study groups, goal setting, intellectual community",
+        "text":  "I\u0027m hoping to stay academically motivated, not just on my own. A club focused on study groups and intellectual community would feel like a great fit.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories",
+        "interest":  "cross-cultural conversations, exchange nights, traditions",
+        "text":  "I miss having a space where I can meet students from different countries. I\u0027d love a club that regularly brings people together around cross-cultural conversations and exchange nights.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills and make friends as an international student",
+        "interest":  "mathematics, puzzles, competitions, community, support",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together math problems and competitions and community support and campus connection, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to understand consulting and case interviews better",
+        "interest":  "consulting, case practice, business strategy",
+        "text":  "I tend to stick with activities that let me understand consulting recruiting. A club around case practice and business strategy would really suit me.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to perform music again",
+        "interest":  "singing, instruments, rehearsals",
+        "text":  "I\u0027m hoping to perform music again, not just on my own. A club focused on singing and rehearsals would feel like a great fit.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get practice with interviews and resumes",
+        "interest":  "career prep, resume reviews, mock interviews",
+        "text":  "I\u0027m looking for something that lets me prepare for internships without being overly intense. A group based on resume reviews and mock interviews would be perfect.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and keep painting and sharing work with other people",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, painting, critique",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together cross-cultural conversations and exchange nights and painting sessions and critique, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress",
+        "interest":  "badminton, tournaments, training",
+        "text":  "I\u0027m looking for something that lets me compete in a sport and relieve stress without being overly intense. A group based on badminton training and tournaments would be perfect.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and improve my writing and critical thinking",
+        "interest":  "Arabic language, calligraphy, cultural workshops, essays, editing",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me learn a culture through art and language and improve my writing. The mix of interests in calligraphy workshops and Middle Eastern culture and essays and peer feedback really appeals to me.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills and make friends as an international student",
+        "interest":  "mathematics, puzzles, competitions, community, support",
+        "text":  "My ideal club would help me sharpen my math skills and make friends as an international student. A group built around math problems and competitions and community support and campus connection sounds like a great fit.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare early for law school and legal careers and perform music again",
+        "interest":  "legal careers, mentoring, skill building, singing, instruments",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together law school mentoring and skill building and singing and rehearsals would let me prepare for legal careers and perform music again in one place.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to practice Korean and learn more about the culture, stay academically motivated this semester, and try boxing or another combat sport",
+        "interest":  "Korean language, food nights, films, study groups, goal setting",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to practice Korean outside class, stay academically motivated, and try a combat sport in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet people without it feeling forced",
+        "interest":  "casual hangouts, games, conversation",
+        "text":  "Lately I\u0027ve wanted to meet people naturally. If there\u0027s a group built around casual hangouts and games, I\u0027d be interested.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in academic competitions and keep painting and sharing work with other people",
+        "interest":  "case contests, quiz bowls, team challenges, painting, critique",
+        "text":  "My ideal club would help me compete academically and keep painting and sharing work. A group built around case contests and quiz-style challenges and painting sessions and critique sounds like a great fit.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to discuss books and big ideas beyond what my courses cover, hear from people already working in my field, and find something fun where I can meet new people regularly",
+        "interest":  "reading, philosophy, discussion, industry panels, alumni",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around reading groups and thoughtful discussion, industry panels and mentorship, and hangouts and casual events would give me space to talk about books and ideas, hear from people in my field, and meet new people regularly.",
+        "categories":  [
+                           "academic",
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to explore cultures different from my own and make friends as an international student",
+        "interest":  "international festivals, customs, storytelling, community, support",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together international festivals and cultural exchange and community support and campus connection, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to reconnect with my language and use it more often and feel connected during my first semester",
+        "interest":  "language exchange, conversation circles, heritage identity, new friends, orientation-like support",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can reconnect with my heritage language and feel connected in my first semester through conversation circles and heritage identity and new friends and community support, I\u0027d be happy.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to write creatively with other people",
+        "interest":  "creative writing, readings, feedback",
+        "text":  "I\u0027m looking for something that lets me write creatively with other people without being overly intense. A group based on creative writing and readings would be perfect.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus",
+        "interest":  "heritage events, traditional food, cultural celebrations",
+        "text":  "I tend to stick with activities that let me stay connected to my roots. A club around heritage events and cultural celebrations would really suit me.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to write creatively with other people",
+        "interest":  "creative writing, readings, feedback",
+        "text":  "Lately I\u0027ve wanted to write creatively with other people. If there\u0027s a group built around creative writing and readings, I\u0027d be interested.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to find my people on campus",
+        "interest":  "friendship, community, belonging",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can find my people on campus. Something centered on belonging and community sounds right.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way",
+        "interest":  "experiments, workshops, academic projects",
+        "text":  "I\u0027m looking for something that lets me learn through hands-on work without being overly intense. A group based on experiments and academic projects would be perfect.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university and work on projects that look strong on a resume",
+        "interest":  "swimming, training plans, fitness, portfolio building, teamwork",
+        "text":  "I\u0027m looking for a club where I can keep up with swimming and build resume-worthy experience. I\u0027d be especially interested in something that brings together swim training and fitness and portfolio projects and leadership.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to get practice with interviews and resumes",
+        "interest":  "career prep, resume reviews, mock interviews",
+        "text":  "Lately I\u0027ve wanted to prepare for internships. If there\u0027s a group built around resume reviews and mock interviews, I\u0027d be interested.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in academic competitions, get practice with interviews and resumes, and find a community that feels upbeat and welcoming",
+        "interest":  "case contests, quiz bowls, team challenges, career prep, resume reviews",
+        "text":  "My ideal club would help me compete academically, prepare for internships, and find a welcoming community. If a group naturally blends case contests and quiz-style challenges, resume reviews and mock interviews, and group activities and mixers, I\u0027d be really interested.",
+        "categories":  [
+                           "academic",
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate global cultures with other students, learn in a more hands-on way, and get out of my room more often",
+        "interest":  "world music, festivals, international students, experiments, workshops",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to celebrate global cultures, learn through hands-on work, and get out more and meet people in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories",
+        "interest":  "cross-cultural conversations, exchange nights, traditions",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can meet students from different countries. Something centered on cross-cultural conversations and exchange nights sounds right.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students who are serious about entrepreneurship and write creatively with other people",
+        "interest":  "startups, business ideas, pitching, creative writing, readings",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together startup ideas and pitching and creative writing and readings, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to find a community that feels upbeat and welcoming",
+        "interest":  "group activities, mixers, positive environment",
+        "text":  "I tend to stick with activities that let me find a welcoming community. A club around group activities and mixers would really suit me.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way and get out of my room more often",
+        "interest":  "experiments, workshops, academic projects, events, outings",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together experiments and academic projects and events and outings would let me learn through hands-on work and get out more and meet people in one place.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to build connections that might help my career later on and meet people outside my classes and major",
+        "interest":  "networking, industry talks, internships, new friends, mixed groups",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can build career connections and meet people outside my classes through networking and industry talks and mixed groups and campus events, I\u0027d be happy.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to explore cultures different from my own, explore psychology topics beyond my intro class, and stay active and make exercise part of my routine",
+        "interest":  "international festivals, customs, storytelling, behavior, mental processes",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to learn about cultures different from my own, explore psychology beyond class, and stay active consistently in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in cultural performances and celebrations, stay active and make exercise part of my routine, and get back into theatre",
+        "interest":  "traditional dance, festivals, community events, fitness, team play",
+        "text":  "I\u0027m hoping to find one club where I can take part in cultural performances, stay active consistently, and get back into theatre instead of splitting my time across several groups. Something that combines traditional dance and community festivals, fitness routines and regular practice, and acting and stage production would be ideal.",
+        "categories":  [
+                           "cultural",
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university and improve my illustration skills",
+        "interest":  "swimming, training plans, fitness, drawing, digital art",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can keep up with swimming and improve my illustration skills through swim training and fitness and drawing practice and feedback, I\u0027d be happy.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way and get out of my room more often",
+        "interest":  "experiments, workshops, academic projects, events, outings",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me learn through hands-on work and get out more and meet people. The mix of interests in experiments and academic projects and events and outings really appeals to me.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to be more disciplined with exercise, build connections that might help my career later on, and get back into theatre",
+        "interest":  "fitness goals, routines, accountability, networking, industry talks",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around fitness goals and accountability, networking and industry talks, and acting and stage production would give me space to be more disciplined with exercise, build career connections, and get back into theatre.",
+        "categories":  [
+                           "sports",
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester and feel connected during my first semester",
+        "interest":  "study groups, goal setting, intellectual community, new friends, orientation-like support",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay academically motivated and feel connected in my first semester through study groups and intellectual community and new friends and community support, I\u0027d be happy.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills and be more disciplined with exercise",
+        "interest":  "mathematics, puzzles, competitions, fitness goals, routines",
+        "text":  "My ideal club would help me sharpen my math skills and be more disciplined with exercise. A group built around math problems and competitions and fitness goals and accountability sounds like a great fit.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and get practice with interviews and resumes",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, career prep, resume reviews",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together cross-cultural conversations and exchange nights and resume reviews and mock interviews, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare early for law school and legal careers and perform music again",
+        "interest":  "legal careers, mentoring, skill building, singing, instruments",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me prepare for legal careers and perform music again. The mix of interests in law school mentoring and skill building and singing and rehearsals really appeals to me.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to reconnect with my language and use it more often and try boxing or another combat sport",
+        "interest":  "language exchange, conversation circles, heritage identity, boxing, discipline",
+        "text":  "I\u0027m looking for a club where I can reconnect with my heritage language and try a combat sport. I\u0027d be especially interested in something that brings together conversation circles and heritage identity and boxing training and conditioning.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to help organize events that represent my community on campus, meet students who are serious about entrepreneurship, and make friends as an international student",
+        "interest":  "cultural advocacy, student events, community outreach, startups, business ideas",
+        "text":  "My ideal club would help me represent my community on campus, explore entrepreneurship, and make friends as an international student. If a group naturally blends cultural advocacy and student events, startup ideas and pitching, and community support and campus connection, I\u0027d be really interested.",
+        "categories":  [
+                           "cultural",
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university, work on projects that look strong on a resume, and find a casual club without a lot of pressure",
+        "interest":  "swimming, training plans, fitness, portfolio building, teamwork",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to keep up with swimming, build resume-worthy experience, and find a casual club without pressure in the same space sounds perfect.",
+        "categories":  [
+                           "sports",
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and improve my public speaking through regular practice",
+        "interest":  "heritage events, traditional food, cultural celebrations, presentations, argumentation",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay connected to my roots and improve my public speaking through heritage events and cultural celebrations and speaking practice and structured feedback, I\u0027d be happy.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus",
+        "interest":  "heritage events, traditional food, cultural celebrations",
+        "text":  "I\u0027m hoping to stay connected to my roots, not just on my own. A club focused on heritage events and cultural celebrations would feel like a great fit.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate Lunar New Year and similar traditions with others and keep playing basketball seriously",
+        "interest":  "holiday events, East Asian culture, campus celebrations, basketball, drills",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together campus celebrations and East Asian culture and basketball drills and scrimmages would let me celebrate important cultural holidays and keep playing basketball seriously in one place.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester and try boxing or another combat sport",
+        "interest":  "study groups, goal setting, intellectual community, boxing, discipline",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay academically motivated and try a combat sport through study groups and intellectual community and boxing training and conditioning, I\u0027d be happy.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills",
+        "interest":  "mathematics, puzzles, competitions",
+        "text":  "I miss having a space where I can sharpen my math skills. I\u0027d love a club that regularly brings people together around math problems and competitions.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to perform music again",
+        "interest":  "singing, instruments, rehearsals",
+        "text":  "I tend to stick with activities that let me perform music again. A club around singing and rehearsals would really suit me.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills and be more disciplined with exercise",
+        "interest":  "mathematics, puzzles, competitions, fitness goals, routines",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together math problems and competitions and fitness goals and accountability, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to hear from people already working in my field and find something fun where I can meet new people regularly",
+        "interest":  "industry panels, alumni, mentorship, hangouts, casual events",
+        "text":  "My ideal club would help me hear from people in my field and meet new people regularly. A group built around industry panels and mentorship and hangouts and casual events sounds like a great fit.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus",
+        "interest":  "heritage events, traditional food, cultural celebrations",
+        "text":  "I\u0027m hoping to stay connected to my roots, not just on my own. A club focused on heritage events and cultural celebrations would feel like a great fit.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to get practice with interviews and resumes",
+        "interest":  "career prep, resume reviews, mock interviews",
+        "text":  "I\u0027m looking for something that lets me prepare for internships without being overly intense. A group based on resume reviews and mock interviews would be perfect.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to perform music again",
+        "interest":  "singing, instruments, rehearsals",
+        "text":  "I tend to stick with activities that let me perform music again. A club around singing and rehearsals would really suit me.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university and work on projects that look strong on a resume",
+        "interest":  "swimming, training plans, fitness, portfolio building, teamwork",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can keep up with swimming and build resume-worthy experience through swim training and fitness and portfolio projects and leadership, I\u0027d be happy.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to feel more confident in formal settings and improve my illustration skills",
+        "interest":  "networking, etiquette, communication, drawing, digital art",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can feel more confident in professional settings and improve my illustration skills through networking etiquette and communication and drawing practice and feedback, I\u0027d be happy.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and understand consulting and case interviews better",
+        "interest":  "Arabic language, calligraphy, cultural workshops, consulting, case practice",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me learn a culture through art and language and understand consulting recruiting. The mix of interests in calligraphy workshops and Middle Eastern culture and case practice and business strategy really appeals to me.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester",
+        "interest":  "study groups, goal setting, intellectual community",
+        "text":  "I tend to stick with activities that let me stay academically motivated. A club around study groups and intellectual community would really suit me.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to improve my illustration skills",
+        "interest":  "drawing, digital art, feedback",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can improve my illustration skills. Something centered on drawing practice and feedback sounds right.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to understand consulting and case interviews better",
+        "interest":  "consulting, case practice, business strategy",
+        "text":  "I\u0027m hoping to understand consulting recruiting, not just on my own. A club focused on case practice and business strategy would feel like a great fit.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to make friends and stop feeling anonymous on campus and get back into theatre",
+        "interest":  "meeting people, community, low-pressure events, acting, stage production",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can make friends on campus and get back into theatre through low-pressure events and community and acting and stage production, I\u0027d be happy.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester",
+        "interest":  "study groups, goal setting, intellectual community",
+        "text":  "I\u0027m hoping to stay academically motivated, not just on my own. A club focused on study groups and intellectual community would feel like a great fit.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to spend more time outdoors being active and learn how my degree connects to real jobs",
+        "interest":  "hiking, cycling, active weekends, career paths, alumni advice",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together hiking and active weekends and career paths and alumni advice would let me spend more time outdoors being active and connect my degree to real jobs in one place.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to spend more time outdoors being active and perform music again",
+        "interest":  "hiking, cycling, active weekends, singing, instruments",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together hiking and active weekends and singing and rehearsals would let me spend more time outdoors being active and perform music again in one place.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to find my people on campus",
+        "interest":  "friendship, community, belonging",
+        "text":  "I miss having a space where I can find my people on campus. I\u0027d love a club that regularly brings people together around belonging and community.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to feel closer to home while studying away from family, take part in academic competitions, and get practice with interviews and resumes",
+        "interest":  "community gatherings, native language, holiday events, case contests, quiz bowls",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around community gatherings and holiday traditions, case contests and quiz-style challenges, and resume reviews and mock interviews would give me space to feel closer to home while studying away, compete academically, and prepare for internships.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to do something that challenges me intellectually outside class and get more exposure to the finance industry",
+        "interest":  "debate, research, problem solving, markets, finance careers",
+        "text":  "I\u0027m looking for a club where I can be challenged intellectually and learn about finance careers. I\u0027d be especially interested in something that brings together debates and research conversations and market discussions and finance networking.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress",
+        "interest":  "badminton, tournaments, training",
+        "text":  "I\u0027m looking for something that lets me compete in a sport and relieve stress without being overly intense. A group based on badminton training and tournaments would be perfect.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to reconnect with my language and use it more often, try boxing or another combat sport, and build leadership experience employers will care about",
+        "interest":  "language exchange, conversation circles, heritage identity, boxing, discipline",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to reconnect with my heritage language, try a combat sport, and build leadership experience in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to do something that challenges me intellectually outside class and get more exposure to the finance industry",
+        "interest":  "debate, research, problem solving, markets, finance careers",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can be challenged intellectually and learn about finance careers through debates and research conversations and market discussions and finance networking, I\u0027d be happy.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to hear from people already working in my field and find something fun where I can meet new people regularly",
+        "interest":  "industry panels, alumni, mentorship, hangouts, casual events",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together industry panels and mentorship and hangouts and casual events, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester",
+        "interest":  "study groups, goal setting, intellectual community",
+        "text":  "I tend to stick with activities that let me stay academically motivated. A club around study groups and intellectual community would really suit me.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group and find something fun where I can meet new people regularly",
+        "interest":  "track, endurance, race prep, hangouts, casual events",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together endurance training and race prep and hangouts and casual events, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to get more research experience before applying to graduate school and understand consulting and case interviews better",
+        "interest":  "lab work, academic mentoring, conferences, consulting, case practice",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me build research experience and understand consulting recruiting. The mix of interests in lab work and academic mentoring and case practice and business strategy really appeals to me.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to reconnect with my language and use it more often and feel connected during my first semester",
+        "interest":  "language exchange, conversation circles, heritage identity, new friends, orientation-like support",
+        "text":  "I\u0027m looking for a club where I can reconnect with my heritage language and feel connected in my first semester. I\u0027d be especially interested in something that brings together conversation circles and heritage identity and new friends and community support.",
+        "categories":  [
+                           "cultural",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to get more exposure to the finance industry",
+        "interest":  "markets, finance careers, networking",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can learn about finance careers. Something centered on market discussions and finance networking sounds right.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to find a casual club without a lot of pressure and make films with other students",
+        "interest":  "friendly atmosphere, easy participation, campus life, filmmaking, editing",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together a friendly atmosphere and easy participation and filmmaking and storytelling would let me find a casual club without pressure and make films with other students in one place.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to keep up with swimming while at university and improve my illustration skills",
+        "interest":  "swimming, training plans, fitness, drawing, digital art",
+        "text":  "I\u0027m looking for a club where I can keep up with swimming and improve my illustration skills. I\u0027d be especially interested in something that brings together swim training and fitness and drawing practice and feedback.",
+        "categories":  [
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to meet people without it feeling forced",
+        "interest":  "casual hangouts, games, conversation",
+        "text":  "Lately I\u0027ve wanted to meet people naturally. If there\u0027s a group built around casual hangouts and games, I\u0027d be interested.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to improve my public speaking through regular practice, meet people without it feeling forced, and perform music again",
+        "interest":  "presentations, argumentation, communication, casual hangouts, games",
+        "text":  "My ideal club would help me improve my public speaking, meet people naturally, and perform music again. If a group naturally blends speaking practice and structured feedback, casual hangouts and games, and singing and rehearsals, I\u0027d be really interested.",
+        "categories":  [
+                           "academic",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get more exposure to the finance industry",
+        "interest":  "markets, finance careers, networking",
+        "text":  "I miss having a space where I can learn about finance careers. I\u0027d love a club that regularly brings people together around market discussions and finance networking.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine",
+        "interest":  "fitness, team play, regular practice",
+        "text":  "I tend to stick with activities that let me stay active consistently. A club around fitness routines and regular practice would really suit me.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to help organize events that represent my community on campus, meet students who are serious about entrepreneurship, and make friends as an international student",
+        "interest":  "cultural advocacy, student events, community outreach, startups, business ideas",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to represent my community on campus, explore entrepreneurship, and make friends as an international student in the same space sounds perfect.",
+        "categories":  [
+                           "cultural",
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to understand consulting and case interviews better, find my people on campus, and write creatively with other people",
+        "interest":  "consulting, case practice, business strategy, friendship, community",
+        "text":  "My ideal club would help me understand consulting recruiting, find my people on campus, and write creatively with other people. If a group naturally blends case practice and business strategy, belonging and community, and creative writing and readings, I\u0027d be really interested.",
+        "categories":  [
+                           "professional",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress",
+        "interest":  "badminton, tournaments, training",
+        "text":  "I\u0027m looking for something that lets me compete in a sport and relieve stress without being overly intense. A group based on badminton training and tournaments would be perfect.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in cultural performances and celebrations, stay active and make exercise part of my routine, and meet people outside my classes and major",
+        "interest":  "traditional dance, festivals, community events, fitness, team play",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around traditional dance and community festivals, fitness routines and regular practice, and mixed groups and campus events would give me space to take part in cultural performances, stay active consistently, and meet people outside my classes.",
+        "categories":  [
+                           "cultural",
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories",
+        "interest":  "cross-cultural conversations, exchange nights, traditions",
+        "text":  "I miss having a space where I can meet students from different countries. I\u0027d love a club that regularly brings people together around cross-cultural conversations and exchange nights.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group, find something fun where I can meet new people regularly, and design things outside class",
+        "interest":  "track, endurance, race prep, hangouts, casual events",
+        "text":  "I\u0027m hoping to find one club where I can train for races, meet new people regularly, and design things outside class instead of splitting my time across several groups. Something that combines endurance training and race prep, hangouts and casual events, and graphic design and illustration would be ideal.",
+        "categories":  [
+                           "sports",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture",
+        "interest":  "Arabic language, calligraphy, cultural workshops",
+        "text":  "I\u0027m looking for something that lets me learn a culture through art and language without being overly intense. A group based on calligraphy workshops and Middle Eastern culture would be perfect.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to reconnect with my language and use it more often and try boxing or another combat sport",
+        "interest":  "language exchange, conversation circles, heritage identity, boxing, discipline",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can reconnect with my heritage language and try a combat sport through conversation circles and heritage identity and boxing training and conditioning, I\u0027d be happy.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress and have more fun weekends on campus",
+        "interest":  "badminton, tournaments, training, events, outings",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together badminton training and tournaments and events and group plans would let me compete in a sport and relieve stress and have more fun weekends on campus in one place.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to feel more confident in formal settings and improve my illustration skills",
+        "interest":  "networking, etiquette, communication, drawing, digital art",
+        "text":  "I\u0027m looking for a club where I can feel more confident in professional settings and improve my illustration skills. I\u0027d be especially interested in something that brings together networking etiquette and communication and drawing practice and feedback.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in academic competitions and keep painting and sharing work with other people",
+        "interest":  "case contests, quiz bowls, team challenges, painting, critique",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together case contests and quiz-style challenges and painting sessions and critique, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to explore cultures different from my own and be more disciplined with exercise",
+        "interest":  "international festivals, customs, storytelling, fitness goals, routines",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together international festivals and cultural exchange and fitness goals and accountability, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to write creatively with other people",
+        "interest":  "creative writing, readings, feedback",
+        "text":  "I\u0027m looking for something that lets me write creatively with other people without being overly intense. A group based on creative writing and readings would be perfect.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get more exposure to the finance industry",
+        "interest":  "markets, finance careers, networking",
+        "text":  "I miss having a space where I can learn about finance careers. I\u0027d love a club that regularly brings people together around market discussions and finance networking.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to feel closer to home while studying away from family, take part in academic competitions, and get practice with interviews and resumes",
+        "interest":  "community gatherings, native language, holiday events, case contests, quiz bowls",
+        "text":  "I\u0027m hoping to find one club where I can feel closer to home while studying away, compete academically, and prepare for internships instead of splitting my time across several groups. Something that combines community gatherings and holiday traditions, case contests and quiz-style challenges, and resume reviews and mock interviews would be ideal.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn about indigenous cultures and community issues respectfully, find a casual club without a lot of pressure, and make films with other students",
+        "interest":  "indigenous history, community events, cultural awareness, friendly atmosphere, easy participation",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around indigenous history and community awareness, a friendly atmosphere and easy participation, and filmmaking and storytelling would give me space to learn about indigenous cultures respectfully, find a casual club without pressure, and make films with other students.",
+        "categories":  [
+                           "cultural",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to take part in academic competitions and get practice with interviews and resumes",
+        "interest":  "case contests, quiz bowls, team challenges, career prep, resume reviews",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together case contests and quiz-style challenges and resume reviews and mock interviews, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "academic",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills, be more disciplined with exercise, and make more time for creative expression",
+        "interest":  "mathematics, puzzles, competitions, fitness goals, routines",
+        "text":  "I have a few different goals this year, and I\u0027d love one club that covers them together. Being able to sharpen my math skills, be more disciplined with exercise, and make more time for creative expression in the same space sounds perfect.",
+        "categories":  [
+                           "academic",
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture",
+        "interest":  "Arabic language, calligraphy, cultural workshops",
+        "text":  "Lately I\u0027ve wanted to learn a culture through art and language. If there\u0027s a group built around calligraphy workshops and Middle Eastern culture, I\u0027d be interested.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester",
+        "interest":  "study groups, goal setting, intellectual community",
+        "text":  "I tend to stick with activities that let me stay academically motivated. A club around study groups and intellectual community would really suit me.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to do something that challenges me intellectually outside class, learn a new sport from scratch, and prepare early for law school and legal careers",
+        "interest":  "debate, research, problem solving, beginner coaching, practice sessions",
+        "text":  "I\u0027m hoping to find one club where I can be challenged intellectually, learn a new sport from scratch, and prepare for legal careers instead of splitting my time across several groups. Something that combines debates and research conversations, beginner coaching and practice sessions, and law school mentoring and skill building would be ideal.",
+        "categories":  [
+                           "academic",
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and get back into theatre",
+        "interest":  "heritage events, traditional food, cultural celebrations, acting, stage production",
+        "text":  "I\u0027m looking for a club where I can stay connected to my roots and get back into theatre. I\u0027d be especially interested in something that brings together heritage events and cultural celebrations and acting and stage production.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students who are serious about entrepreneurship, make friends as an international student, and make more time for creative expression",
+        "interest":  "startups, business ideas, pitching, community, support",
+        "text":  "I\u0027m drawn to clubs that aren\u0027t one-dimensional. A group built around startup ideas and pitching, community support and campus connection, and drawing, music, and design would give me space to explore entrepreneurship, make friends as an international student, and make more time for creative expression.",
+        "categories":  [
+                           "professional",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to do something that challenges me intellectually outside class and get back into theatre",
+        "interest":  "debate, research, problem solving, acting, stage production",
+        "text":  "I\u0027m looking for a club where I can be challenged intellectually and get back into theatre. I\u0027d be especially interested in something that brings together debates and research conversations and acting and stage production.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress and have more fun weekends on campus",
+        "interest":  "badminton, tournaments, training, events, outings",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me compete in a sport and relieve stress and have more fun weekends on campus. The mix of interests in badminton training and tournaments and events and group plans really appeals to me.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to perform music again",
+        "interest":  "singing, instruments, rehearsals",
+        "text":  "I\u0027m hoping to perform music again, not just on my own. A club focused on singing and rehearsals would feel like a great fit.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to prepare for math competitions and sharpen my skills",
+        "interest":  "mathematics, puzzles, competitions",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can sharpen my math skills. Something centered on math problems and competitions sounds right.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to feel less shy in group settings and keep painting and sharing work with other people",
+        "interest":  "conversation, confidence, small group activities, painting, critique",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together conversation and small group activities and painting sessions and critique, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to explore cultures different from my own and be more disciplined with exercise",
+        "interest":  "international festivals, customs, storytelling, fitness goals, routines",
+        "text":  "My ideal club would help me learn about cultures different from my own and be more disciplined with exercise. A group built around international festivals and cultural exchange and fitness goals and accountability sounds like a great fit.",
+        "categories":  [
+                           "cultural",
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories, play football with other students, and design things outside class",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, football, teamwork",
+        "text":  "I\u0027m hoping to find one club where I can meet students from different countries, play football regularly, and design things outside class instead of splitting my time across several groups. Something that combines cross-cultural conversations and exchange nights, football training and matches, and graphic design and illustration would be ideal.",
+        "categories":  [
+                           "cultural",
+                           "sports",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group",
+        "interest":  "track, endurance, race prep",
+        "text":  "I miss having a space where I can train for races. I\u0027d love a club that regularly brings people together around endurance training and race prep.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and get better at coding and build projects with other students",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, programming, hackathons",
+        "text":  "My ideal club would help me meet students from different countries and build coding skills with other students. A group built around cross-cultural conversations and exchange nights and programming projects and hackathons sounds like a great fit.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to celebrate global cultures with other students, learn in a more hands-on way, and perform music again",
+        "interest":  "world music, festivals, international students, experiments, workshops",
+        "text":  "My ideal club would help me celebrate global cultures, learn through hands-on work, and perform music again. If a group naturally blends world music and multicultural campus events, experiments and academic projects, and singing and rehearsals, I\u0027d be really interested.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to meet people without it feeling forced",
+        "interest":  "casual hangouts, games, conversation",
+        "text":  "I\u0027m looking for something that lets me meet people naturally without being overly intense. A group based on casual hangouts and games would be perfect.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to get more research experience before applying to graduate school, understand consulting and case interviews better, and join something centered around photography",
+        "interest":  "lab work, academic mentoring, conferences, consulting, case practice",
+        "text":  "I\u0027m hoping to find one club where I can build research experience, understand consulting recruiting, and work on photography with other students instead of splitting my time across several groups. Something that combines lab work and academic mentoring, case practice and business strategy, and photography and creative projects would be ideal.",
+        "categories":  [
+                           "academic",
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to train for races with a group",
+        "interest":  "track, endurance, race prep",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can train for races. Something centered on endurance training and race prep sounds right.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to meet people without it feeling forced",
+        "interest":  "casual hangouts, games, conversation",
+        "text":  "I\u0027m looking for something that lets me meet people naturally without being overly intense. A group based on casual hangouts and games would be perfect.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to find a community that feels upbeat and welcoming",
+        "interest":  "group activities, mixers, positive environment",
+        "text":  "I\u0027m hoping to find a welcoming community, not just on my own. A club focused on group activities and mixers would feel like a great fit.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress",
+        "interest":  "badminton, tournaments, training",
+        "text":  "Lately I\u0027ve wanted to compete in a sport and relieve stress. If there\u0027s a group built around badminton training and tournaments, I\u0027d be interested.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to write creatively with other people",
+        "interest":  "creative writing, readings, feedback",
+        "text":  "Lately I\u0027ve wanted to write creatively with other people. If there\u0027s a group built around creative writing and readings, I\u0027d be interested.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get into running in a beginner-friendly way and build a stronger internship profile",
+        "interest":  "running, conditioning, outdoor workouts, career branding, internship prep",
+        "text":  "My ideal club would help me get into running and strengthen my internship profile. A group built around group runs and conditioning and career branding and internship prep sounds like a great fit.",
+        "categories":  [
+                           "sports",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to improve my illustration skills",
+        "interest":  "drawing, digital art, feedback",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can improve my illustration skills. Something centered on drawing practice and feedback sounds right.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress",
+        "interest":  "badminton, tournaments, training",
+        "text":  "Lately I\u0027ve wanted to compete in a sport and relieve stress. If there\u0027s a group built around badminton training and tournaments, I\u0027d be interested.",
+        "categories":  [
+                           "sports"
+                       ]
+    },
+    {
+        "goal":  "I want to get practice with interviews and resumes",
+        "interest":  "career prep, resume reviews, mock interviews",
+        "text":  "Lately I\u0027ve wanted to prepare for internships. If there\u0027s a group built around resume reviews and mock interviews, I\u0027d be interested.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture and make films with other students",
+        "interest":  "Arabic language, calligraphy, cultural workshops, filmmaking, editing",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together calligraphy workshops and Middle Eastern culture and filmmaking and storytelling would let me learn a culture through art and language and make films with other students in one place.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and get better at coding and build projects with other students",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, programming, hackathons",
+        "text":  "I\u0027d rather join one club that covers both sides of what I enjoy. If it brings together cross-cultural conversations and exchange nights and programming projects and hackathons, I\u0027d have a real reason to show up consistently.",
+        "categories":  [
+                           "cultural",
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to build connections that might help my career later on and meet people outside my classes and major",
+        "interest":  "networking, industry talks, internships, new friends, mixed groups",
+        "text":  "I\u0027m looking for a club where I can build career connections and meet people outside my classes. I\u0027d be especially interested in something that brings together networking and industry talks and mixed groups and campus events.",
+        "categories":  [
+                           "professional",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to write creatively with other people",
+        "interest":  "creative writing, readings, feedback",
+        "text":  "Lately I\u0027ve wanted to write creatively with other people. If there\u0027s a group built around creative writing and readings, I\u0027d be interested.",
+        "categories":  [
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to find my people on campus",
+        "interest":  "friendship, community, belonging",
+        "text":  "I miss having a space where I can find my people on campus. I\u0027d love a club that regularly brings people together around belonging and community.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to find a community that feels upbeat and welcoming",
+        "interest":  "group activities, mixers, positive environment",
+        "text":  "I\u0027m hoping to find a welcoming community, not just on my own. A club focused on group activities and mixers would feel like a great fit.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay academically motivated this semester and feel connected during my first semester",
+        "interest":  "study groups, goal setting, intellectual community, new friends, orientation-like support",
+        "text":  "I\u0027m looking for a club where I can stay academically motivated and feel connected in my first semester. I\u0027d be especially interested in something that brings together study groups and intellectual community and new friends and community support.",
+        "categories":  [
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to get more research experience before applying to graduate school and make films with other students",
+        "interest":  "lab work, academic mentoring, conferences, filmmaking, editing",
+        "text":  "I don\u0027t want to pick just one interest right now. A club that brings together lab work and academic mentoring and filmmaking and storytelling would let me build research experience and make films with other students in one place.",
+        "categories":  [
+                           "academic",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way",
+        "interest":  "experiments, workshops, academic projects",
+        "text":  "Lately I\u0027ve wanted to learn through hands-on work. If there\u0027s a group built around experiments and academic projects, I\u0027d be interested.",
+        "categories":  [
+                           "academic"
+                       ]
+    },
+    {
+        "goal":  "I want to make friends and stop feeling anonymous on campus and get back into theatre",
+        "interest":  "meeting people, community, low-pressure events, acting, stage production",
+        "text":  "I\u0027m looking for a club where I can make friends on campus and get back into theatre. I\u0027d be especially interested in something that brings together low-pressure events and community and acting and stage production.",
+        "categories":  [
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture, improve my writing and critical thinking, and find my people on campus",
+        "interest":  "Arabic language, calligraphy, cultural workshops, essays, editing",
+        "text":  "I\u0027m hoping to find one club where I can learn a culture through art and language, improve my writing, and find my people on campus instead of splitting my time across several groups. Something that combines calligraphy workshops and Middle Eastern culture, essays and peer feedback, and belonging and community would be ideal.",
+        "categories":  [
+                           "cultural",
+                           "academic",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students from other countries and hear their stories and get practice with interviews and resumes",
+        "interest":  "cross-cultural conversations, exchange nights, traditions, career prep, resume reviews",
+        "text":  "My ideal club would help me meet students from different countries and prepare for internships. A group built around cross-cultural conversations and exchange nights and resume reviews and mock interviews sounds like a great fit.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to find a community that feels upbeat and welcoming",
+        "interest":  "group activities, mixers, positive environment",
+        "text":  "I\u0027m hoping to find a welcoming community, not just on my own. A club focused on group activities and mixers would feel like a great fit.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to stay active and make exercise part of my routine and meet people outside my classes and major",
+        "interest":  "fitness, team play, regular practice, new friends, mixed groups",
+        "text":  "I\u0027m looking for a club where I can stay active consistently and meet people outside my classes. I\u0027d be especially interested in something that brings together fitness routines and regular practice and mixed groups and campus events.",
+        "categories":  [
+                           "sports",
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to find my people on campus",
+        "interest":  "friendship, community, belonging",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can find my people on campus. Something centered on belonging and community sounds right.",
+        "categories":  [
+                           "social"
+                       ]
+    },
+    {
+        "goal":  "I want to have a competitive outlet that also relieves stress, have more fun weekends on campus, and join something centered around photography",
+        "interest":  "badminton, tournaments, training, events, outings",
+        "text":  "My ideal club would help me compete in a sport and relieve stress, have more fun weekends on campus, and work on photography with other students. If a group naturally blends badminton training and tournaments, events and group plans, and photography and creative projects, I\u0027d be really interested.",
+        "categories":  [
+                           "sports",
+                           "social",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture",
+        "interest":  "Arabic language, calligraphy, cultural workshops",
+        "text":  "Lately I\u0027ve wanted to learn a culture through art and language. If there\u0027s a group built around calligraphy workshops and Middle Eastern culture, I\u0027d be interested.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to learn Arabic calligraphy and understand more about Middle Eastern culture",
+        "interest":  "Arabic language, calligraphy, cultural workshops",
+        "text":  "I\u0027m looking for something that lets me learn a culture through art and language without being overly intense. A group based on calligraphy workshops and Middle Eastern culture would be perfect.",
+        "categories":  [
+                           "cultural"
+                       ]
+    },
+    {
+        "goal":  "I want to meet students who are serious about entrepreneurship and write creatively with other people",
+        "interest":  "startups, business ideas, pitching, creative writing, readings",
+        "text":  "My ideal club would help me explore entrepreneurship and write creatively with other people. A group built around startup ideas and pitching and creative writing and readings sounds like a great fit.",
+        "categories":  [
+                           "professional",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and get more exposure to the finance industry",
+        "interest":  "heritage events, traditional food, cultural celebrations, markets, finance careers",
+        "text":  "I\u0027m looking for a club where I can stay connected to my roots and learn about finance careers. I\u0027d be especially interested in something that brings together heritage events and cultural celebrations and market discussions and finance networking.",
+        "categories":  [
+                           "cultural",
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to understand consulting and case interviews better",
+        "interest":  "consulting, case practice, business strategy",
+        "text":  "I\u0027m hoping to understand consulting recruiting, not just on my own. A club focused on case practice and business strategy would feel like a great fit.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to stay connected to my roots and take part in traditions on campus and get back into theatre",
+        "interest":  "heritage events, traditional food, cultural celebrations, acting, stage production",
+        "text":  "I tend to stay involved when a club covers more than one side of what I enjoy. If I can stay connected to my roots and get back into theatre through heritage events and cultural celebrations and acting and stage production, I\u0027d be happy.",
+        "categories":  [
+                           "cultural",
+                           "art"
+                       ]
+    },
+    {
+        "goal":  "I want to get more exposure to the finance industry",
+        "interest":  "markets, finance careers, networking",
+        "text":  "I\u0027m still figuring out campus life, but I know I\u0027d enjoy a club where I can learn about finance careers. Something centered on market discussions and finance networking sounds right.",
+        "categories":  [
+                           "professional"
+                       ]
+    },
+    {
+        "goal":  "I want to learn in a more hands-on way and keep playing basketball seriously",
+        "interest":  "experiments, workshops, academic projects, basketball, drills",
+        "text":  "I\u0027m open to different kinds of clubs, but I\u0027d probably stick with one that lets me learn through hands-on work and keep playing basketball seriously. The mix of interests in experiments and academic projects and basketball drills and scrimmages really appeals to me.",
+        "categories":  [
+                           "academic",
+                           "sports"
+                       ]
+    }
+]

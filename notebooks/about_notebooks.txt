@@ -1,1 +1,16 @@
 club_rec_categorize.ipynb - here we worked on our categorization model
+
+
+mapping interests
+Sports & Fitness : 1
+Culture & Languages : 2
+Science & Research : 3
+Debate & Public Speaking : 4
+Business & Finance : 5
+Technology & Computing : 6
+Music & Performance : 7
+Arts & Creativity : 8
+Social Impact & Volunteering : 9
+Gaming & Esports : 10
+Dance : 11
+Film & Media : 12

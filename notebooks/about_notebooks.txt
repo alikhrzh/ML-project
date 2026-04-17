@@ -1,4 +1,6 @@
 club_rec_categorize.ipynb - here we worked on our categorization model
+data_cleaning.jpynb - here cleaned data
+work_w_interest areas.jpynb - here we mapped the interest areas
 
 
 mapping interests

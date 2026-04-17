@@ -1,7 +1,7 @@
 import nltk
-!pip install transformers keybert pandas numpy scikit-learn
-nltk.download('wordnet')
-!pip install "sentence-transformers<3.0.0"
+#!pip install transformers keybert pandas numpy scikit-learn
+#nltk.download('wordnet')
+#!pip install "sentence-transformers<3.0.0"
 
 import re
 import pandas as pd
@@ -68,12 +68,11 @@ def expansion(text: str) -> str:
 
     return text + ' ' + ' '.join(additions) if additions else text
 
-df = pd.read_csv('clubs_with_interest_areas.csv')
+df = pd.read_csv('data/clubs_with_interest_areas.csv')
 
 sent_model  = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
-processed_club_descriptions = df['description_clean'].apply(lambda x: expansion(normalize(x)) if pd.notna(x) else '')
-club_embeddings = sent_model.encode(processed_club_descriptions.tolist(), show_progress_bar=True)
+club_embeddings = np.load('data/club_embeddings.npy')
 
 def get_sim_score(user_text: str) -> pd.DataFrame:
     text = normalize(user_text)
@@ -100,6 +99,6 @@ def get_sim_score(user_text: str) -> pd.DataFrame:
         'sim_score': scores
     }).sort_values('sim_score', ascending=False).reset_index(drop=True)
 
-# print(get_sim_score("мне очень сильно нравится играть в футбол, хочу участвовать в соревнованиях по футбол"))
-# print(get_sim_score("i want to became a data scientist and develop my CV and find new connectins"))
+#print(get_sim_score("мне очень сильно нравится играть в футбол, хочу участвовать в соревнованиях по футбол"))
+#print(get_sim_score("i want to became a data scientist and develop my CV and find new connectins"))
 # df[df['id'] == 20]['name']

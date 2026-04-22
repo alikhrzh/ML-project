@@ -1,7 +1,7 @@
 import nltk
 #!pip install transformers keybert pandas numpy scikit-learn
 nltk.download('wordnet')
-#nltk.download('omw-1.4')
+nltk.download('omw-1.4')
 #!pip install "sentence-transformers<3.0.0"
 
 import re

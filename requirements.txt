@@ -1,4 +1,19 @@
+
+# Основной интерфейс
+streamlit
+
+# Обработка данных
 pandas
 numpy
-seaborn
+
+# Машинное обучение и NLP
+torch
+sentence-transformers<3.0.0
+transformers
+keybert
+scikit-learn
+nltk
+
+# Работа с файлами и форматами
+openpyxl
 -e .

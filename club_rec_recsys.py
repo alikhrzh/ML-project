@@ -17,7 +17,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class BulletproofTranslator:
     def __init__(self, model_name, device=0):
-        self.device = f"cuda:{device}" if torch.cuda.is_available() else "cpu"
+        self.device = f"cuda:{device}" if (device >= 0 and torch.cuda.is_available()) else "cpu"
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(self.device)
 
@@ -28,7 +28,9 @@ class BulletproofTranslator:
 
         return [{'translation_text': translated_text}]
 
-translator = BulletproofTranslator("Helsinki-NLP/opus-mt-ru-en", device=0)
+
+device_idx = 0 if torch.cuda.is_available() else -1 
+translator = BulletproofTranslator("Helsinki-NLP/opus-mt-ru-en", device=device_idx)
 
 
 class SafeSentenceTransformer:

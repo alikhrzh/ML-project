@@ -8,6 +8,7 @@ numpy
 
 # Машинное обучение и NLP
 torch
+sentencepiece
 sentence-transformers<3.0.0
 transformers
 keybert

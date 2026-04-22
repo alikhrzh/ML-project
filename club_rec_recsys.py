@@ -29,16 +29,21 @@ class BulletproofTranslator:
 
 translator = BulletproofTranslator("Helsinki-NLP/opus-mt-ru-en", device=0)
 
+
 class SafeSentenceTransformer:
-    def __init__(self, model_name):
+    def init(self, model_name):
         self.model = SentenceTransformer(model_name)
 
     def encode(self, texts, **kwargs):
+        if isinstance(texts, str):
+            texts = [texts]
         if isinstance(texts, np.ndarray):
             texts = texts.tolist()
-        return self.model.encode(texts, **kwargs)
 
-kw_model = KeyBERT(model=SafeSentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2'))
+        return self.model.encode(texts, **kwargs)
+base_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+
+kw_model = KeyBERT(model=base_model)
 
 def normalize(text: str) -> str:
     text = text.lower().strip()
@@ -51,14 +56,19 @@ def normalize(text: str) -> str:
     return text.strip()
 
 def expansion(text: str) -> str:
+    if not text or not isinstance(text, str):
+        return ""
+    text = text.strip()
+    if len(text) == 0:
+        return ""
     if len(text.split()) > 6:
         return text
 
-    keywords = kw_model.extract_keywords(text, keyphrase_ngram_range=(1,1), top_n=3)
-    keywords = [kw for kw, score in keywords]
 
     additions = []
-    for word in keywords:
+    for word in text.split():
+        if len(additions) >= 2:
+            break
         syns = wordnet.synsets(word)
         for syn in syns[:2]:
             for lemma in syn.lemmas()[:2]:
@@ -70,7 +80,7 @@ def expansion(text: str) -> str:
 
 df = pd.read_csv('data/clubs_with_interest_areas.csv')
 
-sent_model  = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+sent_model  = base_model
 
 club_embeddings = np.load('data/club_embeddings.npy')
 

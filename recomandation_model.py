@@ -44,7 +44,7 @@ def top_5(user_text, user_interests):
 
     return sorted(scoring_results, key=lambda x: x['total'], reverse=True)[:5]
 
-dd = top_5("i want to became a data scientist and develop my CV and find new connectins", [3, 6])
+#dd = top_5("i want to became a data scientist and develop my CV and find new connectins", [3, 6])
 
-for i in dd:
-    print(i["id"], i["total"])
+#for i in dd:
+   # print(i["id"], i["total"])

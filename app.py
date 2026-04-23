@@ -16,7 +16,7 @@ st.set_page_config(
 
 def log_to_sheets(query, selected_labels, results_names):
     try:
-        APPS_SCRIPT_URL = "https://script.google.com/macros/s/ТВОЙ_URL/exec"
+        APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbznsKd97g3CIGFY5NdUUU2V0muH-Q1mYVjiLsQp6-m3gSwZVsdPD1c9yx_QeMrp9dz6vQ/exec"
         payload = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "query": query,

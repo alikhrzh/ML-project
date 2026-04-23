@@ -16,14 +16,16 @@ st.set_page_config(
 
 def log_to_sheets(query, selected_labels, results_names):
     try:
-        APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbznsKd97g3CIGFY5NdUUU2V0muH-Q1mYVjiLsQp6-m3gSwZVsdPD1c9yx_QeMrp9dz6vQ/exec"
+        APPS_SCRIPT_URL = "https://script.google.com/macros/s/ТВОЙ_URL/exec"
         payload = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "query": query,
             "interests": ", ".join(selected_labels),
             "recommendations": ", ".join(results_names)
         }
-        requests.post(APPS_SCRIPT_URL, json=payload, timeout=5)
+        response = requests.post(APPS_SCRIPT_URL, json=payload, timeout=10)
+        st.write(f"Status: {response.status_code}")  # покажет код ответа
+        st.write(f"Response: {response.text}")        # покажет ответ сервера
     except Exception as e:
         st.error(f"Error logging data: {e}")
 

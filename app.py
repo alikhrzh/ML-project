@@ -4,7 +4,6 @@ import ast
 import sys
 import os
 import base64
-from streamlit_gsheets import GSheetsConnection
 from datetime import datetime
 
 # ── Page config ──────────────────────────────────────────────────────────────
@@ -16,21 +15,16 @@ st.set_page_config(
 
 def log_to_sheets(query, selected_labels, results_names):
     try:
-        conn = st.connection("gsheets", type=GSheetsConnection)
-        
-        # Попробуй только запись без чтения существующих данных
-        new_entry = pd.DataFrame([{
-            "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "Query": query,
-            "Interests": ", ".join(selected_labels),
-            "Recommendations": ", ".join(results_names)
-        }])
-
-        conn.update(worksheet="Sheet1", data=new_entry)  # без concat, просто перезапись
+        APPS_SCRIPT_URL = "https://script.google.com/macros/s/ВАШ_URL/exec"
+        payload = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "query": query,
+            "interests": ", ".join(selected_labels),
+            "recommendations": ", ".join(results_names)
+        }
+        requests.post(APPS_SCRIPT_URL, json=payload, timeout=5)
     except Exception as e:
         st.error(f"Error logging data: {e}")
-        import traceback
-        st.error(traceback.format_exc())  # полный traceback
 
 # ── Background Image Helper ──────────────────────────────────────────────────
 def get_base64_of_bin_file(bin_file):

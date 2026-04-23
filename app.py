@@ -24,8 +24,6 @@ def log_to_sheets(query, selected_labels, results_names):
             "recommendations": ", ".join(results_names)
         }
         response = requests.post(APPS_SCRIPT_URL, json=payload, timeout=10)
-        st.write(f"Status: {response.status_code}")
-        st.write(f"Response: {response.text}")
     except Exception as e:
         st.error(f"Error logging data: {e}")
 

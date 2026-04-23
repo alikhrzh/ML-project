@@ -26,11 +26,11 @@ def log_to_sheets(query, selected_labels, results_names):
         }])
 
         # Получаем существующие данные и добавляем новую строку
-        existing_data = conn.read(worksheet="Sheet1")
+        existing_data = conn.read()
         updated_df = pd.concat([existing_data, new_entry], ignore_index=True)
 
         # Записываем обратно
-        conn.update(worksheet="Sheet1", data=updated_df)
+        conn.update(data=updated_df)
     except Exception as e:
         st.error(f"Error logging data: {e}")
 

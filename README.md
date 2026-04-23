@@ -119,20 +119,3 @@ The app will open at `http://localhost:8501`.
 | `st-gsheets-connection` | Logging searches to Google Sheets |
 
 ---
-
-## Interest Categories
-
-| # | Category |
-|---|---|
-| 1 | Sports & Fitness |
-| 2 | Culture & Languages |
-| 3 | Science & Research |
-| 4 | Debate & Public Speaking |
-| 5 | Business & Finance |
-| 6 | Technology & Computing |
-| 7 | Music & Performance |
-| 8 | Arts & Creativity |
-| 9 | Social Impact & Volunteering |
-| 10 | Gaming & Esports |
-| 11 | Dance |
-| 12 | Film & Media |

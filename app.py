@@ -17,6 +17,8 @@ st.set_page_config(
 def log_to_sheets(query, selected_labels, results_names):
     try:
         conn = st.connection("gsheets", type=GSheetsConnection)
+        
+        # Попробуй только запись без чтения существующих данных
         new_entry = pd.DataFrame([{
             "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "Query": query,
@@ -24,12 +26,11 @@ def log_to_sheets(query, selected_labels, results_names):
             "Recommendations": ", ".join(results_names)
         }])
 
-        existing_data = conn.read(worksheet="Sheet1", ttl=0)
-        updated_df = pd.concat([existing_data, new_entry], ignore_index=True)
-
-        conn.update(worksheet="Sheet1", data=updated_df)
+        conn.update(worksheet="Sheet1", data=new_entry)  # без concat, просто перезапись
     except Exception as e:
         st.error(f"Error logging data: {e}")
+        import traceback
+        st.error(traceback.format_exc())  # полный traceback
 
 # ── Background Image Helper ──────────────────────────────────────────────────
 def get_base64_of_bin_file(bin_file):

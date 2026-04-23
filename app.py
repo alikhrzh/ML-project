@@ -4,6 +4,8 @@ import ast
 import sys
 import os
 import base64
+from streamlit_gsheets import GSheetsConnection
+from datetime import datetime
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -11,6 +13,26 @@ st.set_page_config(
     layout="centered",
 )
 
+
+def log_to_sheets(query, selected_labels, results_names):
+    try:
+        conn = st.connection("gsheets", type=GSheetsConnection)
+        # Формируем новую строку данных
+        new_entry = pd.DataFrame([{
+            "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "Query": query,
+            "Interests": ", ".join(selected_labels),
+            "Recommendations": ", ".join(results_names)
+        }])
+
+        # Получаем существующие данные и добавляем новую строку
+        existing_data = conn.read(worksheet="Sheet1")
+        updated_df = pd.concat([existing_data, new_entry], ignore_index=True)
+
+        # Записываем обратно
+        conn.update(worksheet="Sheet1", data=updated_df)
+    except Exception as e:
+        st.error(f"Error logging data: {e}")
 
 # ── Background Image Helper ──────────────────────────────────────────────────
 def get_base64_of_bin_file(bin_file):
@@ -177,6 +199,13 @@ if search_clicked:
         with st.spinner("Analyzing clubs..."):
             results = rec_model.top_5(query, selected_ids)
 
+            recommended_names = []
+            for item in results:
+                c_name = clubs_df[clubs_df["id"] == item["id"]]["name"].values[0]
+                recommended_names.append(c_name)
+
+            log_to_sheets(query, selected_labels, recommended_names)
+
         st.markdown(f"### Recommended for You")
 
         for item in results:
@@ -185,10 +214,10 @@ if search_clicked:
                 continue
 
             club = club_row.iloc[0]
-            name     = club.get("name", "Unknown Club")
+            name = club.get("name", "Unknown Club")
             why_join = club.get("why_join", "This club is a great match for your interests!")
-            tg_url   = club.get("telegram_url", "")
-            ig_url   = club.get("instagram_url", "")
+            tg_url = club.get("telegram_url", "")
+            ig_url = club.get("instagram_url", "")
 
             links_html = ""
             if pd.notna(tg_url) and str(tg_url).startswith("http"):

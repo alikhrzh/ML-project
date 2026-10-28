@@ -1,150 +1,106 @@
 # NU Club Finder
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://nuclubs.streamlit.app)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+NU Club Finder is a student project that helps Nazarbayev University students
+discover clubs from a free-text query and selected interest areas. It is a
+working prototype, not a validated recommender system.
 
-*A smart recommendation system that helps Nazarbayev University students discover student clubs that match their interests and goals.*
+## Problem
 
-🔗 **Live App**: [nuclubs.streamlit.app](https://nuclubs.streamlit.app)
+Club information is spread across descriptions and social links, so students
+must browse many options manually. This project ranks a local catalogue of NU
+clubs and returns five candidates that may match a student's interests.
 
-> **Status:** student project and working prototype. The current ranking is a
-> manually weighted hybrid baseline; recommendation quality has not yet been
-> validated on a labelled offline test set or through a controlled user study.
+## Approach
 
----
+The current ranking is a manually weighted hybrid baseline:
 
-## Overview
+1. Russian queries are translated to English with
+   `Helsinki-NLP/opus-mt-ru-en`.
+2. Short queries are expanded with WordNet synonyms.
+3. `paraphrase-multilingual-MiniLM-L12-v2` produces a query embedding.
+4. Cosine similarity compares the query with pre-computed club embeddings.
+5. The final score is `0.7 * semantic_similarity + 0.3 * interest_match`.
 
-NU Club Finder combines semantic search with interest-based filtering to surface the most relevant student clubs from a simple natural language query. Instead of browsing a long list manually, students describe what they're looking for and the system returns the top 5 clubs ranked by relevance.
+The 70/30 split is a product hypothesis. It was not learned from interaction
+data or selected through an offline benchmark.
 
-The ranking blends two signals:
+## Results
 
-- **Semantic similarity (70%)** — how closely a club's description matches the user's query, computed via sentence embeddings and cosine similarity
-- **Interest match (30%)** — how many of the user's selected interest categories overlap with the club's tagged areas
+No recommendation-quality metric is reported yet. The repository contains
+example queries, but they do not include reviewed relevance labels, so they
+cannot support Recall@K, NDCG@K, or a defensible comparison with a baseline.
 
-Queries can be written in **English or Russian** — a translation layer automatically handles Russian input before it reaches the embedding model.
+- Ranking calculation tests: **4/4 passing**.
+- Offline ranking result: **[TODO: offline ranking metric against semantic-only
+  and simple popularity/random baselines]**.
+- Public demo: **[TODO: public demo URL]**.
 
-The 70/30 weighting is a product hypothesis, not a learned or experimentally
-optimal value. A planned evaluation will compare semantic-only,
-interest-only, and combined baselines using a small reviewed query set.
+The previously used `nuclubs.streamlit.app` address currently redirects to a
+Streamlit sign-in page and is therefore not presented as a public demo.
 
----
+## Interface preview
 
-## Features
+**[TODO: add a Streamlit screenshot after the public deployment is verified]**
 
-- **Natural language search** — describe your ideal club experience in plain text
-- **Interest area filtering** — narrow results by selecting from 12 categories (Sports, Technology, Arts, etc.)
-- **Multilingual input** — Russian queries are auto-translated to English before processing
-- **Query expansion** — short queries are enriched with WordNet synonyms for better recall
-- **Social links** — each result card links directly to the club's Telegram and Instagram
-- **Optional usage feedback** — users can explicitly opt in to sharing a search
-  with a separately configured analytics endpoint
+## How to run
 
----
-
-## How It Works
-
-```
-User query (text + selected interests)
-        │
-        ▼
-  Russian? → Translate to English (Helsinki-NLP/opus-mt-ru-en)
-        │
-        ▼
-  Short query? → Expand with WordNet synonyms
-        │
-        ▼
-  Encode query with paraphrase-multilingual-MiniLM-L12-v2
-        │
-        ▼
-  Cosine similarity vs. pre-computed club embeddings
-        │
-        ▼
-  Blend: 0.7 × semantic_score + 0.3 × interest_match_score
-        │
-        ▼
-  Return top 5 clubs
-```
-
----
-
-## Project Structure
-
-```
-ML-project/
-├── app.py                          # Streamlit UI and app entry point
-├── recomandation_model.py          # Scoring and ranking logic
-├── club_rec_recsys.py              # Embedding, translation, similarity search
-├── data/
-│   ├── clubs_with_interest_areas.csv   # Club dataset with metadata
-│   └── club_embeddings.npy             # Pre-computed club embeddings
-├── notebooks/                      # Exploratory notebooks
-├── requirements.txt
-├── runtime.txt
-└── setup.py
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- Git
-
-### Installation
+Python 3.11 is declared in `runtime.txt`.
 
 ```bash
 git clone https://github.com/alikhrzh/ML-project.git
 cd ML-project
-
-pip install -r requirements.txt
-```
-
-### Run the app
-
-```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app will open at `http://localhost:8501`.
+The first run downloads the embedding and translation models. Usage analytics
+are disabled unless `NU_CLUB_ANALYTICS_URL` is configured, and a search is sent
+only after the user explicitly opts in.
 
-> **Note:** On first run the sentence-transformer and translation models will be downloaded automatically (~500MB total). This is a one-time step.
-
-Usage feedback is disabled by default. To operate a project-controlled
-analytics endpoint, set `NU_CLUB_ANALYTICS_URL` in the deployment environment.
-Even when an endpoint is configured, a search is sent only after the user
-selects the opt-in checkbox. The payload contains the query, selected interests,
-recommended club names, and a timestamp.
-
-### Run the lightweight tests
+Run the lightweight ranking tests without downloading the NLP models:
 
 ```bash
 python -m unittest discover -s tests
 ```
 
-These tests cover the pure ranking calculations without downloading the NLP
-models. GitHub Actions runs them on every push and pull request.
+Deployment instructions are in
+[`docs/deploy-streamlit.md`](docs/deploy-streamlit.md).
 
----
+## Project structure
 
-## Dependencies
+```text
+app.py                         Streamlit interface
+ranking.py                     Pure hybrid-scoring functions
+recomandation_model.py         Recommendation orchestration
+club_rec_recsys.py             Translation, embeddings, and retrieval
+data/                          Club metadata and pre-computed embeddings
+notebooks/                     Exploration and prototype notebooks
+tests/                         Lightweight ranking tests
+```
 
-| Package | Purpose |
-|---|---|
-| `streamlit` | Web interface |
-| `sentence-transformers` | Multilingual sentence embeddings |
-| `transformers` | Helsinki-NLP translation model |
-| `keybert` | Keyword extraction |
-| `scikit-learn` | Cosine similarity |
-| `nltk` | WordNet query expansion |
-| `pandas` / `numpy` | Data handling |
-| `requests` | Optional, consent-based analytics request |
+## Limitations
 
----
+- There is no labelled recommendation benchmark or controlled user study.
+- The hybrid weight is manually chosen and may not generalize.
+- WordNet expansion can add unrelated meanings to ambiguous queries.
+- Russian input depends on machine translation before ranking.
+- The first start requires network access and substantial model downloads.
+- Club metadata and social links need periodic review.
+- The repository does not currently declare an open-source license.
 
-## Team and contribution disclosure
+## Roadmap
+
+- Label a small query-to-club relevance set with at least two reviewers.
+- Compare semantic-only, interest-only, hybrid, and simple popularity/random
+  baselines using Recall@5 and NDCG@5.
+- Publish a public, unauthenticated Streamlit deployment and screenshot.
+- Add an explicit user-feedback signal without collecting queries by default.
+- Pin compatible dependency versions after the deployment environment is
+  reproduced.
+
+## Team and model disclosure
 
 NU Club Finder is a collaborative student project by **Alikhan Rakhymzhan**
 and **Nurdaulet**. Based on the public commit history, Alikhan contributed the
@@ -153,15 +109,7 @@ the Streamlit application, and the original analytics integration. Nurdaulet
 contributed data and notebook experiments and earlier README iterations.
 Commit counts are not used as a measure of effort.
 
-Pretrained models provide translation and text embeddings; the team did not
-train those foundation models. The project-specific work is the club dataset,
-interest taxonomy, ranking logic, application integration, and evaluation plan.
-
-## Known limitations
-
-- No labelled recommendation benchmark is published yet.
-- WordNet expansion can introduce unrelated senses for short or ambiguous queries.
-- Russian input depends on machine translation before ranking.
-- Model downloads make the first start slow and require network access.
-- Club metadata and social links can become outdated and need periodic review.
-- The repository does not currently declare an open-source license.
+The project uses pretrained translation and sentence-embedding models; the
+team did not train those foundation models. AI assistants may have supported
+documentation and implementation review, while the repository authors remain
+responsible for the code, evaluation claims, and final decisions.

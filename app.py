@@ -15,15 +15,18 @@ st.set_page_config(
 
 
 def log_to_sheets(query, selected_labels, results_names):
+    analytics_url = os.getenv("NU_CLUB_ANALYTICS_URL", "").strip()
+    if not analytics_url:
+        return
+
     try:
-        APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbznsKd97g3CIGFY5NdUUU2V0muH-Q1mYVjiLsQp6-m3gSwZVsdPD1c9yx_QeMrp9dz6vQ/exec"
         payload = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "query": query,
             "interests": ", ".join(selected_labels),
             "recommendations": ", ".join(results_names)
         }
-        response = requests.post(APPS_SCRIPT_URL, json=payload, timeout=10)
+        requests.post(analytics_url, json=payload, timeout=10).raise_for_status()
     except Exception as e:
         st.error(f"Error logging data: {e}")
 
@@ -164,6 +167,15 @@ selected_labels = st.pills(
 
 selected_ids = [INTEREST_OPTIONS[l] for l in selected_labels] if selected_labels else []
 
+share_search = st.checkbox(
+    "Share this search to help improve recommendations",
+    value=False,
+    help=(
+        "If enabled, the query, selected interests, recommended club names, "
+        "and timestamp may be sent to the project analytics endpoint."
+    ),
+)
+
 st.divider()
 
 # ── Section 2 + 3 – Search ───────────────────────────────────────────────────
@@ -197,7 +209,8 @@ if search_clicked:
                 c_name = clubs_df[clubs_df["id"] == item["id"]]["name"].values[0]
                 recommended_names.append(c_name)
 
-            log_to_sheets(query, selected_labels, recommended_names)
+            if share_search:
+                log_to_sheets(query, selected_labels, recommended_names)
 
         st.markdown(f"### Recommended for You")
 

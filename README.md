@@ -7,6 +7,10 @@
 
 🔗 **Live App**: [nuclubs.streamlit.app](https://nuclubs.streamlit.app)
 
+> **Status:** student project and working prototype. The current ranking is a
+> manually weighted hybrid baseline; recommendation quality has not yet been
+> validated on a labelled offline test set or through a controlled user study.
+
 ---
 
 ## Overview
@@ -20,6 +24,10 @@ The ranking blends two signals:
 
 Queries can be written in **English or Russian** — a translation layer automatically handles Russian input before it reaches the embedding model.
 
+The 70/30 weighting is a product hypothesis, not a learned or experimentally
+optimal value. A planned evaluation will compare semantic-only,
+interest-only, and combined baselines using a small reviewed query set.
+
 ---
 
 ## Features
@@ -29,7 +37,8 @@ Queries can be written in **English or Russian** — a translation layer automat
 - **Multilingual input** — Russian queries are auto-translated to English before processing
 - **Query expansion** — short queries are enriched with WordNet synonyms for better recall
 - **Social links** — each result card links directly to the club's Telegram and Instagram
-- **Usage logging** — searches are logged to Google Sheets for analytics
+- **Optional usage feedback** — users can explicitly opt in to sharing a search
+  with a separately configured analytics endpoint
 
 ---
 
@@ -103,6 +112,21 @@ The app will open at `http://localhost:8501`.
 
 > **Note:** On first run the sentence-transformer and translation models will be downloaded automatically (~500MB total). This is a one-time step.
 
+Usage feedback is disabled by default. To operate a project-controlled
+analytics endpoint, set `NU_CLUB_ANALYTICS_URL` in the deployment environment.
+Even when an endpoint is configured, a search is sent only after the user
+selects the opt-in checkbox. The payload contains the query, selected interests,
+recommended club names, and a timestamp.
+
+### Run the lightweight tests
+
+```bash
+python -m unittest discover -s tests
+```
+
+These tests cover the pure ranking calculations without downloading the NLP
+models. GitHub Actions runs them on every push and pull request.
+
 ---
 
 ## Dependencies
@@ -116,6 +140,28 @@ The app will open at `http://localhost:8501`.
 | `scikit-learn` | Cosine similarity |
 | `nltk` | WordNet query expansion |
 | `pandas` / `numpy` | Data handling |
-| `st-gsheets-connection` | Logging searches to Google Sheets |
+| `requests` | Optional, consent-based analytics request |
 
 ---
+
+## Team and contribution disclosure
+
+NU Club Finder is a collaborative student project by **Alikhan Rakhymzhan**
+and **Nurdaulet**. Based on the public commit history, Alikhan contributed the
+hybrid recommendation logic, interest mapping and data-cleaning iterations,
+the Streamlit application, and the original analytics integration. Nurdaulet
+contributed data and notebook experiments and earlier README iterations.
+Commit counts are not used as a measure of effort.
+
+Pretrained models provide translation and text embeddings; the team did not
+train those foundation models. The project-specific work is the club dataset,
+interest taxonomy, ranking logic, application integration, and evaluation plan.
+
+## Known limitations
+
+- No labelled recommendation benchmark is published yet.
+- WordNet expansion can introduce unrelated senses for short or ambiguous queries.
+- Russian input depends on machine translation before ranking.
+- Model downloads make the first start slow and require network access.
+- Club metadata and social links can become outdated and need periodic review.
+- The repository does not currently declare an open-source license.

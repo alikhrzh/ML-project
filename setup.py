@@ -10,7 +10,11 @@ def get_requirements(file_path: str) -> List[str]:
     requirements = []
     with open(file_path) as file_obj:
         # Read lines and strip newlines/whitespace immediately
-        requirements = [line.strip() for line in file_obj.readlines()]
+        requirements = [
+            line.strip()
+            for line in file_obj.readlines()
+            if line.strip() and not line.lstrip().startswith('#')
+        ]
 
         # Remove '-e .' if it exists in the list
         if HYPEN_E_DOT in requirements:

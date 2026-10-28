@@ -1,26 +1,10 @@
 import pandas as pd
 import club_rec_recsys as rec_sys
 import ast
+from ranking import combine_scores, interest_scoring
 
 df = pd.read_csv('data/clubs_with_interest_areas.csv')
 df['interest_areas_ids'] = df['interest_areas_ids'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
-
-def interest_scoring(user_interests, club_interests):
-    if (len(user_interests) == 0):
-        return 1
-    user_interests.sort()
-    club_interests.sort()
-    i = j = count = 0
-    while i < len(user_interests) and j < len(club_interests):
-        if user_interests[i] == club_interests[j]:
-            count += 1
-            i += 1
-            j += 1
-        elif user_interests[i] < club_interests[j]:
-            i += 1
-        else:
-            j += 1
-    return count/len(user_interests)
 
 scoring_results = []
 
@@ -38,7 +22,7 @@ def top_5(user_text, user_interests):
         each_club["id"] = row.id
         each_club["cos_score"] = float(sim_score)
         each_club['interest_match'] = float(interest_match)
-        each_club['total'] = float(sim_score * 0.7 + interest_match * 0.3)
+        each_club['total'] = float(combine_scores(sim_score, interest_match))
 
         scoring_results.append(each_club)
 

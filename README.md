@@ -78,7 +78,25 @@ club_rec_recsys.py             Translation, embeddings, and retrieval
 data/                          Club metadata and pre-computed embeddings
 notebooks/                     Exploration and prototype notebooks
 tests/                         Lightweight ranking tests
+docs/                          Streamlit deployment instructions
+assets/                        Interface screenshots and GIFs
 ```
+
+The request path starts in `app.py`. It loads the club catalogue, collects the
+query and selected interests, and delegates recommendation work to
+`recomandation_model.py`. That module coordinates the NLP pipeline in
+`club_rec_recsys.py` with the explicit scoring functions in `ranking.py`.
+
+- `club_rec_recsys.py` handles translation, query expansion, sentence
+  embeddings, cosine similarity, and the pre-computed embedding matrix.
+- `ranking.py` keeps the 70/30 hybrid formula independent from model downloads,
+  which makes its behavior inexpensive to unit-test.
+- `data/` contains the club catalogue, interest tags, example queries, and
+  generated embeddings; it does not currently contain relevance labels.
+- `notebooks/` preserves data-cleaning and prototype exploration, while the
+  root Python modules are the application path used by Streamlit.
+- `tests/test_ranking.py` verifies the pure scoring calculations, and
+  `docs/deploy-streamlit.md` records the deployment and verification steps.
 
 ## Limitations
 
